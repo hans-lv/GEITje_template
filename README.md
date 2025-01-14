@@ -1,3 +1,9 @@
+## Intro
+
+This template provides a clean starting point for using the [GEITje-7B-chat-v2](https://huggingface.co/Rijgersberg/GEITje-7B-chat-v2) model with PyTorch, although any other model could probably be substituted. 
+
+**Note:** The test file [`tests/test_GEITje.py`](https://github.com/hans-lv/GEITje_template/blob/main/tests/test_GEITje.py) is currently configured to use 4-bit mode due to VRAM limitations. If your system has sufficient resources (16GB VRAM), you can update it to use 8-bit mode for better performance.
+
 ## Requirements
 
 - Windows
